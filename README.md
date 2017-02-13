@@ -41,14 +41,14 @@ If you are using Interface Builder, to set the custom properties of CYRKeyboardB
 Usage
 ---------------
 
-''' swift
+```swift
 let keyboardButton = CYRKeyboardButton()
 keyboardButton.translatesAutoresizingMaskIntoConstraints = false
 keyboardButton.input = "A"
 keyboardButton.inputOptions = ["A", "B", "C", "D"]
 keyboardButton.textInput = self.textView
 self.view.addSubview:keyboardButton
-'''
+```
 
 
 Bugs & Feature Requests
